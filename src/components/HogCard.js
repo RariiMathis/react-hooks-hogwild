@@ -19,7 +19,6 @@ function HogCard(props){
             <div hidden={isHidden}>
                 <p>{ hog.specialty}</p>
                 <p>{hog.weight}</p>
-                <p>{hog.greased}</p>
                 <p>{hog["highest medal achieved"]}</p>
             </div>
          <img src={hog.image}/>
